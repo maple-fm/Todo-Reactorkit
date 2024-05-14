@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "52A39675-22B1-4951-9F2A-A88ED8594614"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F40DE353-32EC-4A4A-9EE9-D24F36775BE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Todo-Reactorkit/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C898F60A-52A3-46B1-B815-B24FCCC7BBCB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "Todo-Reactorkit/TaskStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "reduce(state:mutation:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = ""
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "C898F60A-52A3-46B1-B815-B24FCCC7BBCB - 42d47df65368c42a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_Reactorkit.TaskStore.reduce(state: Todo_Reactorkit.TaskStore.State, mutation: Todo_Reactorkit.TaskStore.Mutation) -&gt; Todo_Reactorkit.TaskStore.State"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "1508">
+               </Location>
+               <Location
+                  uuid = "C898F60A-52A3-46B1-B815-B24FCCC7BBCB - 42d47df65368c44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_Reactorkit.TaskStore.reduce(state: Todo_Reactorkit.TaskStore.State, mutation: Todo_Reactorkit.TaskStore.Mutation) -&gt; Todo_Reactorkit.TaskStore.State"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1160">
+               </Location>
+               <Location
+                  uuid = "C898F60A-52A3-46B1-B815-B24FCCC7BBCB - 42d47df65368c44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_Reactorkit.TaskStore.reduce(state: Todo_Reactorkit.TaskStore.State, mutation: Todo_Reactorkit.TaskStore.Mutation) -&gt; Todo_Reactorkit.TaskStore.State"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1336">
+               </Location>
+               <Location
+                  uuid = "C898F60A-52A3-46B1-B815-B24FCCC7BBCB - 4df689d108a73e21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Todo_Reactorkit.Task) -&gt; Swift.Bool in Todo_Reactorkit.TaskStore.reduce(state: Todo_Reactorkit.TaskStore.State, mutation: Todo_Reactorkit.TaskStore.Mutation) -&gt; Todo_Reactorkit.TaskStore.State"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "C898F60A-52A3-46B1-B815-B24FCCC7BBCB - 42d47df65368c44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_Reactorkit.TaskStore.reduce(state: Todo_Reactorkit.TaskStore.State, mutation: Todo_Reactorkit.TaskStore.Mutation) -&gt; Todo_Reactorkit.TaskStore.State"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "Todo-Reactorkit/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = "&#x30bf;&#x30b9;&#x30af;: @task.title@"
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - 47ecde6c5cefd6ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Todo_Reactorkit.TaskRow in closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.NavigationLink&lt;Todo_Reactorkit.TaskRow, Todo_Reactorkit.TaskDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.NavigationLink&lt;Todo_Reactorkit.TaskRow, Todo_Reactorkit.TaskDetailView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - 47ecde6c5cefd6ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Todo_Reactorkit.TaskRow in closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.NavigationLink&lt;Todo_Reactorkit.TaskRow, Todo_Reactorkit.TaskDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.NavigationLink&lt;Todo_Reactorkit.TaskRow, Todo_Reactorkit.TaskDetailView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - 35ff7361043f641f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt;, Todo_Reactorkit.TaskDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt;, Todo_Reactorkit.TaskDetailView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - 1479ed1b3fffd0e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt;, Todo_Reactorkit.TaskDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt;, Todo_Reactorkit.TaskDetailView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - 1ee3420bbb956e15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - b8d473ba4ddad4e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.Bool, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - c728ce5f3c3e791f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.HStack&lt;Todo_Reactorkit.TaskRow&gt; in closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;Todo_Reactorkit.TaskRow&gt;, Todo_Reactorkit.TaskDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;Todo_Reactorkit.TaskRow&gt;, Todo_Reactorkit.TaskDetailView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "9B03E821-5E80-4A75-8E0A-D29CBA8580BF - 3e2f2bb231871384"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Todo_Reactorkit.TaskRow in closure #1 () -&gt; SwiftUI.HStack&lt;Todo_Reactorkit.TaskRow&gt; in closure #1 (Todo_Reactorkit.Task) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;Todo_Reactorkit.TaskRow&gt;, Todo_Reactorkit.TaskDetailView&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Todo_Reactorkit.Task&gt;, Swift.String, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;Todo_Reactorkit.TaskRow&gt;, Todo_Reactorkit.TaskDetailView&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_Reactorkit.ContentView.body.getter : some"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D065862D-A9E3-45FF-8E82-03CF194B7471"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "Todo-Reactorkit/TaskStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "mutate(action:)"
+            landmarkType = "7">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = "load"
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "D065862D-A9E3-45FF-8E82-03CF194B7471 - d54ba797bbc26622"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_Reactorkit.TaskStore.mutate(action: Todo_Reactorkit.TaskStore.Action) -&gt; RxSwift.Observable&lt;Todo_Reactorkit.TaskStore.Mutation&gt;"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "D065862D-A9E3-45FF-8E82-03CF194B7471 - d54ba797bbc26622"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_Reactorkit.TaskStore.mutate(action: Todo_Reactorkit.TaskStore.Action) -&gt; RxSwift.Observable&lt;Todo_Reactorkit.TaskStore.Mutation&gt;"
+                  moduleName = "Todo-Reactorkit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maple/Desktop/Swiftapp/Todo-Reactorkit/Todo-Reactorkit/TaskStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

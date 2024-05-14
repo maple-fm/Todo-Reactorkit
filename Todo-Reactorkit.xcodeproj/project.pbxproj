@@ -14,6 +14,9 @@
 		F5DD4E672BF3795C0011D450 /* Todo_ReactorkitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E662BF3795C0011D450 /* Todo_ReactorkitTests.swift */; };
 		F5DD4E712BF3795C0011D450 /* Todo_ReactorkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E702BF3795C0011D450 /* Todo_ReactorkitUITests.swift */; };
 		F5DD4E732BF3795C0011D450 /* Todo_ReactorkitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E722BF3795C0011D450 /* Todo_ReactorkitUITestsLaunchTests.swift */; };
+		F5DD4E802BF38EA50011D450 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E7F2BF38EA50011D450 /* Task.swift */; };
+		F5DD4E822BF38F1E0011D450 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E812BF38F1E0011D450 /* TaskStore.swift */; };
+		F5DD4E852BF390130011D450 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = F5DD4E842BF390130011D450 /* ReactorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 		F5DD4E6C2BF3795C0011D450 /* Todo-ReactorkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo-ReactorkitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DD4E702BF3795C0011D450 /* Todo_ReactorkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ReactorkitUITests.swift; sourceTree = "<group>"; };
 		F5DD4E722BF3795C0011D450 /* Todo_ReactorkitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ReactorkitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5DD4E7F2BF38EA50011D450 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		F5DD4E812BF38F1E0011D450 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DD4E852BF390130011D450 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +102,8 @@
 			children = (
 				F5DD4E552BF3795B0011D450 /* Todo_ReactorkitApp.swift */,
 				F5DD4E572BF3795B0011D450 /* ContentView.swift */,
+				F5DD4E7F2BF38EA50011D450 /* Task.swift */,
+				F5DD4E812BF38F1E0011D450 /* TaskStore.swift */,
 				F5DD4E592BF3795C0011D450 /* Assets.xcassets */,
 				F5DD4E5B2BF3795C0011D450 /* Preview Content */,
 			);
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = "Todo-Reactorkit";
+			packageProductDependencies = (
+				F5DD4E842BF390130011D450 /* ReactorKit */,
+			);
 			productName = "Todo-Reactorkit";
 			productReference = F5DD4E522BF3795B0011D450 /* Todo-Reactorkit.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = F5DD4E492BF3795B0011D450;
+			packageReferences = (
+				F5DD4E832BF390130011D450 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+			);
 			productRefGroup = F5DD4E532BF3795B0011D450 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5DD4E582BF3795B0011D450 /* ContentView.swift in Sources */,
+				F5DD4E802BF38EA50011D450 /* Task.swift in Sources */,
+				F5DD4E822BF38F1E0011D450 /* TaskStore.swift in Sources */,
 				F5DD4E562BF3795B0011D450 /* Todo_ReactorkitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5DD4E832BF390130011D450 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5DD4E842BF390130011D450 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5DD4E832BF390130011D450 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5DD4E4A2BF3795B0011D450 /* Project object */;
 }
