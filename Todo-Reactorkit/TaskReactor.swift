@@ -35,10 +35,9 @@ class TaskReactor: Reactor, ObservableObject {
     func mutate(action: Action) -> Observable<Mutation> {
         switch action {
         case .load:
-            return .just(.setTasks([Task(id: "1", title: "タイトル", isCompleted: false)]))
+            return .just(.setTasks([]))
         case .addTask(let title):
             let newTask = Task(id: UUID().uuidString, title: title, isCompleted: false)
-            print("新しいタスク: \(newTask)")
             return .just(.addTask(newTask))
         case .toggleTaskCompletion(let id):
             return .just(.toggleTaskCompletion(id))
@@ -52,7 +51,6 @@ class TaskReactor: Reactor, ObservableObject {
             state.tasks = tasks
         case .addTask(let task):
             state.tasks.append(task)
-            print("タスク一覧", currentState.tasks)
             self.objectWillChange.send()
         case .toggleTaskCompletion(let id):
             if let index = state.tasks.firstIndex(where: { $0.id == id }) {
