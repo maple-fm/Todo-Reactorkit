@@ -15,7 +15,7 @@
 		F5DD4E712BF3795C0011D450 /* Todo_ReactorkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E702BF3795C0011D450 /* Todo_ReactorkitUITests.swift */; };
 		F5DD4E732BF3795C0011D450 /* Todo_ReactorkitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E722BF3795C0011D450 /* Todo_ReactorkitUITestsLaunchTests.swift */; };
 		F5DD4E802BF38EA50011D450 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E7F2BF38EA50011D450 /* Task.swift */; };
-		F5DD4E822BF38F1E0011D450 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E812BF38F1E0011D450 /* TaskStore.swift */; };
+		F5DD4E822BF38F1E0011D450 /* TaskReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD4E812BF38F1E0011D450 /* TaskReactor.swift */; };
 		F5DD4E852BF390130011D450 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = F5DD4E842BF390130011D450 /* ReactorKit */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		F5DD4E702BF3795C0011D450 /* Todo_ReactorkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ReactorkitUITests.swift; sourceTree = "<group>"; };
 		F5DD4E722BF3795C0011D450 /* Todo_ReactorkitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ReactorkitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F5DD4E7F2BF38EA50011D450 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		F5DD4E812BF38F1E0011D450 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		F5DD4E812BF38F1E0011D450 /* TaskReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				F5DD4E552BF3795B0011D450 /* Todo_ReactorkitApp.swift */,
 				F5DD4E572BF3795B0011D450 /* ContentView.swift */,
 				F5DD4E7F2BF38EA50011D450 /* Task.swift */,
-				F5DD4E812BF38F1E0011D450 /* TaskStore.swift */,
+				F5DD4E812BF38F1E0011D450 /* TaskReactor.swift */,
 				F5DD4E592BF3795C0011D450 /* Assets.xcassets */,
 				F5DD4E5B2BF3795C0011D450 /* Preview Content */,
 			);
@@ -273,7 +273,7 @@
 			files = (
 				F5DD4E582BF3795B0011D450 /* ContentView.swift in Sources */,
 				F5DD4E802BF38EA50011D450 /* Task.swift in Sources */,
-				F5DD4E822BF38F1E0011D450 /* TaskStore.swift in Sources */,
+				F5DD4E822BF38F1E0011D450 /* TaskReactor.swift in Sources */,
 				F5DD4E562BF3795B0011D450 /* Todo_ReactorkitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

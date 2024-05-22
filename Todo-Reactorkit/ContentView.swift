@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var store: TaskStore
+    @ObservedObject var store: TaskReactor
     
-    init(store: TaskStore = TaskStore()) {
+    init(store: TaskReactor = TaskReactor()) {
         self.store = store
     }
     
@@ -61,7 +61,7 @@ struct TaskRow: View {
 }
 
 struct TaskDetailView: View {
-    var store: TaskStore
+    var store: TaskReactor
     @State var task: Task
     
     var body: some View {

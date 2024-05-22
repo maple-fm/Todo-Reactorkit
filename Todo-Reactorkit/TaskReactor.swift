@@ -8,7 +8,7 @@
 import Foundation
 import ReactorKit
 
-class TaskStore: Reactor, ObservableObject {
+class TaskReactor: Reactor, ObservableObject {
     
     enum Action {
         case load
