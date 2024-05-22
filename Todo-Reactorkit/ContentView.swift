@@ -52,8 +52,6 @@ struct TaskRow: View {
     
     var body: some View {
         HStack {
-            let _ = print("タスクロー: \(task.id)")
-            Text("タスク")
             Image(systemName: task.isCompleted ? "checkmark.circle.fill" : "circle")
             Text(task.title)
         }
@@ -63,6 +61,7 @@ struct TaskRow: View {
 struct TaskDetailView: View {
     var store: TaskReactor
     @State var task: Task
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         Form {
@@ -73,7 +72,8 @@ struct TaskDetailView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {
-//                    store.send(.deleteTask(task.id))
+                    store.action.onNext(.delete(task.id))
+                    dismiss()
                 }) {
                     Image(systemName: "trash")
                 }

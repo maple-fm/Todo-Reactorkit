@@ -14,12 +14,14 @@ class TaskReactor: Reactor, ObservableObject {
         case load
         case addTask(String)
         case toggleTaskCompletion(String)
+        case delete(String)
     }
     
     enum Mutation {
         case setTasks([Task])
         case addTask(Task)
         case toggleTaskCompletion(String)
+        case delete(String)
     }
     
     struct State {
@@ -41,6 +43,10 @@ class TaskReactor: Reactor, ObservableObject {
             return .just(.addTask(newTask))
         case .toggleTaskCompletion(let id):
             return .just(.toggleTaskCompletion(id))
+        case .delete(let id):
+            return .just(.delete(id))
+            
+            
         }
     }
     
@@ -56,6 +62,11 @@ class TaskReactor: Reactor, ObservableObject {
             if let index = state.tasks.firstIndex(where: { $0.id == id }) {
                 state.tasks[index].isCompleted.toggle()
             }
+        case .delete(let id):
+            state.tasks.removeAll {
+                $0.id == id
+            }
+            self.objectWillChange.send()
         }
         return state
     }
